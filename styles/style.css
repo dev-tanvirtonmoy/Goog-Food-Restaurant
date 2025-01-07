@@ -1,0 +1,114 @@
+/* "Work Sans" google font */
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Work Sans", serif;
+}
+#hero-area {
+  background: linear-gradient(0deg, #090909 2.88%, rgba(16, 16, 16, 0) 101.03%),
+    url(../assets/hero-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 900px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#hero-area .hero-content {
+  width: 1023px;
+  color: #fff;
+  text-align: center;
+}
+#hero-area .hero-content .subtitle {
+  opacity: 0.8;
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+#hero-area .hero-content .title {
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 80px;
+  margin-bottom: 24px;
+}
+#hero-area .hero-content .description {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  opacity: 0.7;
+  margin-bottom: 32px;
+}
+#hero-area .hero-content button {
+  border-radius: 8px;
+  background: #52c303;
+  padding: 21px 32px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/* Card container */
+#card-container {
+  width: 1320px;
+  margin: 167px auto;
+  text-align: center;
+}
+#card-container .section-header {
+  width: 691px;
+  text-align: center;
+  margin: 0 auto;
+}
+#card-container .section-header p {
+  color: #101010;
+  font-size: 24px;
+  font-weight: 500;
+  opacity: 0.6;
+  margin-bottom: 16px;
+}
+#card-container .section-header h2 {
+  color: #101010;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 64px;
+  margin-bottom: 48px;
+}
+#card-container .card-holder {
+  display: flex;
+  gap: 24px;
+}
+#card-container .card-holder .card .tag {
+  padding: 14px 32px;
+  border-radius: 8px;
+  background: rgba(82, 195, 3, 0.15);
+  margin: 32px 0 24px 0;
+}
+#card-container .card-holder .card .tag p {
+  color: #101010;
+  font-size: 24px;
+  font-weight: 600;
+}
+#card-container .card-holder .card h3 {
+  color: #101010;
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+#card-container .card-holder .card .card-description {
+  color: #101010;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+}
+#card-container button {
+  border-radius: 8px;
+  background: #52c303;
+  padding: 21px 32px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 64px;
+}
